@@ -6,7 +6,9 @@ These are some idea:
 
     - Using source code.
 
-    - Download zip-based installer.
+    - Download zip-based installer. (source code)
+    
+    - Download executable version. (play the game only.)
 
 # Updated.
 
