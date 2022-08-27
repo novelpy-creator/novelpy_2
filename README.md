@@ -14,6 +14,6 @@ These are some idea:
 
 Now we're in reloaded. There's are some features:
 
-    - `non_config/` folder (this folder contains a game.py with a lot a initalizing.)
+    - `non_config/` folder (no config.py and defining game files in game.py)
     
-    - `config/` folder (game.py use io to read config.py, then exec the string has parse in config.py.)"# novelpy_2" 
+    - `config/` folder (Excute string by reading config.py)
