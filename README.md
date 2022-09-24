@@ -13,7 +13,8 @@ Preview
 
 (The image is when I test the game UI customize.)
 
-The demo is also added a sprite class example can find in those link:
+The demo is also added a sprite class example:
+
 ```py
 # The sprite class example
 class Sprite(object):
@@ -43,3 +44,12 @@ class Sprite(object):
         self.rect.center = position["center"]
 
 ```
+
+The game itself not contains a `pygame.sprite.Group()` based class, since the sprite class already has all features of sprite and group class. So if you want to include sprites repeatedly:
+
+```py
+# Try this (the example is taken idea from my game I create for test how I'm good at pygame)
+# [...]
+    if event.type == BIRD_COMING: # BIRD_COMING event will repeatedly running after 1 sec by pygame.time.set_timer (BIRD_COMING is an USEREVENT)
+        self.new_bird = [Bird()]
+        self.new_bird[0].draw(self.screen)
