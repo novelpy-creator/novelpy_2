@@ -12,3 +12,18 @@ Preview
 
 The demo is also added a sprite class example can find in those link:
 
+class Sprite(object):
+
+    def __init__(self):
+        self.images = []
+        self.image = None
+        self.rect = None
+
+    def update(self):
+        pass
+
+    def draw(self, surface):
+        surface.blit(self.image, self.rect)
+
+    def kill():
+        self.image.set_alpha(0) # Transparent! By that the sprite has been erased from the screen.
