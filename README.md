@@ -8,6 +8,5 @@ Preview
 ===================================================
 ![preview_img](https://user-images.githubusercontent.com/108453991/190960355-5b9bac79-7d09-40dc-a26b-2982961c65d3.png)
 
-The demo is also added a pygame example.
+The demo is also added a sprite class example can find in those link:
 
-![preview_pygame]
