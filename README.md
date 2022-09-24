@@ -54,3 +54,4 @@ The game itself not contains a `pygame.sprite.Group()` based class, since the sp
     if event.type == BIRD_COMING: # BIRD_COMING event will repeatedly running after 1 sec by pygame.time.set_timer (BIRD_COMING is an USEREVENT)
         self.new_bird = [Bird()]
         self.new_bird[0].draw(self.screen)
+# [...]
