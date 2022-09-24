@@ -1,7 +1,8 @@
-# PyGame Novel 2.0 (NovelPy Reimagined)
+# PyGame-Novel-Two (NovelPy Two)
 Update
 ===================================================
-- [x] Mouse, keymap
+- [x] Mouse, keyboard
+- [x] Make a new sprite style
 - [ ] Choice
 
 Preview
