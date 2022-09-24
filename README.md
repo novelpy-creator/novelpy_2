@@ -11,7 +11,7 @@ Preview
 (The image is for testing if I can change the how the game look.)
 
 The demo is also added a sprite class example can find in those link:
-
+```py
 class Sprite(object):
 
     def __init__(self):
@@ -27,3 +27,5 @@ class Sprite(object):
 
     def kill():
         self.image.set_alpha(0) # Transparent! By that the sprite has been erased from the screen.
+
+```
